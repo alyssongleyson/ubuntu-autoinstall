@@ -6,3 +6,7 @@ autoinstall:
     hostname: AlyssonPC-Ubuntu
     username: alysson
     password: $crypted_pass
+  locale: pt_BR.utf8
+  keyboard:
+    layout: br
+    timezone: "America/Recife"
