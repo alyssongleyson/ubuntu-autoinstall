@@ -1,0 +1,8 @@
+#cloud-config
+autoinstall:
+  version: 1
+  identity:
+    realname: 'Alysson Gleyson'
+    hostname: AlyssonPC-Ubuntu
+    username: alysson
+    password: $crypted_pass
