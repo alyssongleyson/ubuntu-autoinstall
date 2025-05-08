@@ -10,3 +10,9 @@ autoinstall:
   keyboard:
     layout: br
     timezone: "America/Recife"
+    packages:
+      - libreoffice
+      - wget
+      - gdebi
+      - rar
+      - unrar
