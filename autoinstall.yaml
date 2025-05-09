@@ -23,3 +23,7 @@ autoinstall:
       channel: stable
   codecs:
       install: true
+  drivers:
+    install: true
+  updates: all
+  shutdown: reboot
