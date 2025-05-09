@@ -9,12 +9,17 @@ autoinstall:
   locale: pt_BR.utf8
   keyboard:
     layout: br
-    timezone: "America/Recife"
-    packages:
-      - libreoffice
-      - wget
-      - gdebi
-      - rar
-      - unrar
-    codecs:
+  timezone: "America/Recife"
+  packages:
+    - libreoffice
+    - wget
+    - gdebi
+    - rar
+    - unrar
+  snaps:
+    - name: brave
+      channel: stable
+    - name: obsidian
+      channel: stable
+  codecs:
       install: true
